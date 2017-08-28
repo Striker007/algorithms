@@ -5,7 +5,7 @@ import random
 
 def quicksort(array):
     """ Quicksort
-        Complexity: best O(n) avg O(n log n), worst O(n^2)
+        Complexity: best O(n), avg O(n log n), worst O(n^2)
     """
     if len(array) < 2:
         return array
